@@ -1,0 +1,37 @@
+{
+  "name": "qr_code_gen_electron",
+  "version": "1.0.0",
+  "description": "An electron desktop app to generate the QR Codes for the",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.abhishek.qrgen",
+    "productName": "QR Code Generator, for Google Maps and other Links!",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "iocn.ico",
+      "target": "nsis"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhich930/qr_code_gen_electron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhich930/qr_code_gen_electron/issues"
+  },
+  "homepage": "https://github.com/abhich930/qr_code_gen_electron#readme",
+  "devDependencies": {
+    "electron": "^36.1.0",
+    "electron-builder": "^26.0.12"
+  }
+}
